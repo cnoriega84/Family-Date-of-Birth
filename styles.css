@@ -1,3 +1,26 @@
+body{
+  background-image: linear-gradient(
+  185deg,
+  hsl(240deg 100% 6%) 0%,
+  hsl(226deg 96% 11%) 10%,
+  hsl(224deg 100% 15%) 19%,
+  hsl(225deg 100% 20%) 27%,
+  hsl(226deg 100% 25%) 35%,
+  hsl(227deg 100% 30%) 44%,
+  hsl(237deg 75% 40%) 54%,
+  hsl(247deg 73% 47%) 65%,
+  hsl(256deg 81% 50%) 79%,
+  hsl(265deg 100% 50%) 100%
+);
+}
+
+
+
+h1{
+  color: white;
+}
+
+
 .profile {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -140,7 +163,7 @@
   }
   
   div:nth-child(6n+2) > h2 {
-    color: MidnightBlue;
+    color: rgb(255, 0, 0);
   }
   
   div:nth-child(6n+3) > a {
@@ -172,7 +195,7 @@
   }
 
   h6{
-      color:  rgb(76, 0, 255);
+      color:  rgb(255, 255, 255);
       font-size: 60px;
       margin: 2px;
       
@@ -193,6 +216,11 @@
 
 }
 
+
+.todaysDate{
+  color: white;
+
+}
 
 
 
